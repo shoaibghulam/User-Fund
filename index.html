@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-c-gray">
+   <!-- navbar start -->
+   
+<nav class="bg-white  fixed w-full z-50 top-0 left-0 border-b border-gray-200 ">
+    <div class="p-5 md:p-0 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
+    <a href="/" class="w-[230px]">
+       <img src="images/logo.png" alt="">
+    </a>
+    <div class="flex md:order-2">
+       
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-white dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row  md:mt-0 md:border-0 md:bg-white">
+     
+        <li class="">
+          <a href="#" class="menu-item">About</a>
+        </li>
+        <li class="">
+          <a href="#" class="menu-item">Home</a>
+        </li>
+        <li class="">
+          <a href="#" class="menu-item">Cases</a>
+        </li>
+        <li class="">
+          <a href="#" class="menu-item">Our Services</a>
+        </li>
+        <li class="">
+          <a href="#" class="menu-item">Testimonials</a>
+        </li>
+        <li class="">
+          <a href="#" class="menu-item">Contact Us</a>
+        </li>
+     
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+   <!-- navbar end -->
+
+   <!-- hero section start -->
+   <div class="relative pt-16">
+    <img src="images/hero-bg.jpg" class="absolute inset-0 object-cover w-full h-full" alt="" />
+    <div class="relative bg-opacity-75 bg-primary ">
+      <svg class="absolute inset-x-0 bottom-0 text-white" viewBox="0 0 1160 163">
+        <path
+          fill="currentColor"
+          d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"
+        ></path>
+      </svg>
+      <div class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="flex flex-col items-center justify-between xl:flex-row">
+          <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
+            <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+                America's #1 Choice for <br class="hidden md:block" /> Unclaimed Funds Recovery
+              
+            </h2>
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.
+            </p>
+            <div class="flex gap-3 items-center">
+                <a href="#" class="btn-white"> Why Hair Us</a>
+                <a href="#" class="btn-white-outline"> Do I have Case</a>
+            </div>
+          
+          </div>
+          <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
+            <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
+              <h3 class="mb-4 text-xl font-semibold sm:text-center  sm:text-2xl">
+               Register 
+              </h3>
+              <p class="text-sm text-center pb-4 font-semibold">
+                Received a call or letter from us regarding a dormant account?
+              </p>
+              <form>
+                <div class="mb-1 sm:mb-2">
+                  <label for="firstName" class="inline-block mb-1 font-medium">First name</label>
+                  <input
+                    placeholder="John"
+                    required=""
+                    type="text"
+                    class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                    id="firstName"
+                    name="firstName"
+                  />
+                </div>
+                <div class="mb-1 sm:mb-2">
+                  <label for="lastName" class="inline-block mb-1 font-medium">Last name</label>
+                  <input
+                    placeholder="Doe"
+                    required=""
+                    type="text"
+                    class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                    id="lastName"
+                    name="lastName"
+                  />
+                </div>
+                <div class="mb-1 sm:mb-2">
+                  <label for="email" class="inline-block mb-1 font-medium">E-mail</label>
+                  <input
+                    placeholder="john.doe@example.org"
+                    required=""
+                    type="text"
+                    class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+                <div class="mt-4 mb-2 sm:mb-4">
+                  <button
+                    type="submit"
+                    class="btn-primary"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+                <p class="text-xs  sm:text-sm">
+                  We respect your privacy. Unsubscribe at any time.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- hero section end -->
+   <!-- who we are section start -->
+   <section class="bg-c-gray">
+    <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- item start -->
+        <div>
+          <h1 class="text-lg text-primary pb-3">WHO WE ARE</h1>
+          <h1 class="font-semibold text-42">When You’re Hurting, We Help.
+          </h1>
+          <p class="font-normal text-[22px] mt-5 leading-9">
+            We’ve seen it all, and tried it all. We take on the tough cases – not just slam dunks. And you don’t have to have deep pockets to go to court and win. We take on big, well-funded defendants who are used to getting whatever they want.
+
+
+          </p>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div class="relative bg-white p-8  pb-20 mt-3 shadow-md rounded-md">
+          <h1 class="font-bold text-2xl">First, know that our Chicago injury attorneys are on your side.</h1>
+          <p class="text-lg pt-4">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi optio omnis totam ipsum nam incidunt magnam culpa obcaecati! Repudiandae, explicabo praesentium asperiores.
+          </p> 
+          <div class="absolute bottom-8 right-8 bg-gradient-to-tr from-[#ff9462] to-primary w-11 h-11 rounded-full flex items-center justify-center text-center text-white">1</div>
+
+        </div>
+        <!-- item end -->
+           <!-- item start -->
+           <div class="relative bg-white p-8 pb-20 mt-3 shadow-md rounded-md">
+            <h1 class="font-bold text-2xl">First, know that our Chicago injury attorneys are on your side.</h1>
+            <p class="text-lg pt-4">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi optio omnis totam ipsum nam incidunt magnam culpa obcaecati! Repudiandae, explicabo praesentium asperiores.
+            </p> 
+            <div class="absolute bottom-8 right-8 bg-gradient-to-tr from-[#ff9462] to-primary w-11 h-11 rounded-full flex items-center justify-center text-center text-white">2</div>
+  
+          </div>
+          <!-- item end -->
+           <!-- item start -->
+           <div class="hidden md:block">
+           
+  
+          </div>
+          <!-- item end -->
+           <!-- item start -->
+           <div class="relative bg-white p-8 mt-3 shadow-md rounded-md pb-20">
+            <h1 class="font-bold text-2xl">First, know that our Chicago injury attorneys are on your side.</h1>
+            <p class="text-lg pt-4">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi optio omnis totam ipsum nam incidunt magnam culpa obcaecati! Repudiandae, explicabo praesentium asperiores.
+            </p> 
+            <div class="absolute bottom-8 right-8 bg-gradient-to-tr from-[#ff9462] to-primary w-11 h-11 rounded-full flex items-center justify-center text-center text-white">2</div>
+  
+          </div>
+          <!-- item end -->
+           <!-- item start -->
+           <div class="relative bg-[url(../images/hp-clients-helped.webp)] bg-no-repeat bg-cover h-96">
+           <div class="counter-div">
+            <p class="line"></p>
+            <h1 class="text-4xl font-bold pt-3">3500+</h1>
+            <p class="text-sm font-bold pb-3">CLIENTS HELPED</p>
+            <p class="line"></p>
+           </div>
+  
+          </div>
+          <!-- item end -->
+      </div>
+    </div>
+
+    <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+      <div class="flex flex-col md:flex-row justify-between gap-10">
+        <div class="w-full md:w-1/2 ">
+          <p class="line !py-1 !w-20 !m-0"></p>
+          <p class="text-2xl font-normal pt-3">
+            Negligence is rarely intentional in personal injury cases. When things go sideways, it’s usually a failure to reasonably foresee the likelihood of injury. It’s not typically deliberate, but sometimes it is – most often when cost-cutting and profits take priority over safety. Both are all too frequent.
+
+
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 pt-5">
+          <a href="#" class="bg-gradient-to-tr from-primaryHover to-primary text-center py-5 px-3 text-white uppercase text-md w-full block hover:underline font-bold"> REQUEST A FREE CONSULTATION - (312) 736-0787</a>
+          </div>
+      </div>
+      </div>
+   </section>
+   <!-- who we are section end -->
+   <!-- Attorneys start -->
+   <section class="">
+    <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+      <h1 class="font-bold text-3xl md:text-5xl">Meet Our Team of Attorneys</h1>
+      <div class="pt-4 grid grid-cols-1 md:grid-cols-4 gap-4 space-y-10 md:space-y-0">
+      <!-- item start -->
+        <div>
+          <div class="relative before:w-full before:absolute before:bottom-0 before:h-20 before:bg-gradient-to-tr before:from-primaryHover before:to-primary before:z-0 bg-white">
+            <img src="images/attorney-placeholder.png" class="w-[216px] h-[249px]  z-1 relative m-auto" alt="">
+            <div class=""></div>
+           
+          </div>
+          <div class="py-4">
+            <h1 class="text-2xl font-bold">Tyler Kobylski</h1>
+          <p class="font-bold text-md">ATTORNEY</p>
+          </div>
+          <p>
+            <a href="#" class="btn-primary-small text-md font-bold uppercase w-full">read bio</a>
+          </p>
+          
+       </div>
+       <!-- item end -->
+      <!-- item start -->
+        <div>
+          <div class="relative before:w-full before:absolute before:bottom-0 before:h-20 before:bg-gradient-to-tr before:from-primaryHover before:to-primary before:z-0 bg-white">
+            <img src="images/attorney-placeholder.png" class="w-[216px] h-[249px]  z-1 relative m-auto" alt="">
+            <div class=""></div>
+           
+          </div>
+          <div class="py-4">
+            <h1 class="text-2xl font-bold">Tyler Kobylski</h1>
+          <p class="font-bold text-md">ATTORNEY</p>
+          </div>
+          <p>
+            <a href="#" class="btn-primary-small text-md font-bold uppercase">read bio</a>
+          </p>
+          
+       </div>
+       <!-- item end -->
+      <!-- item start -->
+        <div>
+          <div class="relative before:w-full before:absolute before:bottom-0 before:h-20 before:bg-gradient-to-tr before:from-primaryHover before:to-primary before:z-0 bg-white">
+            <img src="images/attorney-placeholder.png" class="w-[216px] h-[249px]  z-1 relative m-auto" alt="">
+            <div class=""></div>
+           
+          </div>
+          <div class="py-4">
+            <h1 class="text-2xl font-bold">Tyler Kobylski</h1>
+          <p class="font-bold text-md">ATTORNEY</p>
+          </div>
+          <p>
+            <a href="#" class="btn-primary-small text-md font-bold uppercase">read bio</a>
+          </p>
+          
+       </div>
+       <!-- item end -->
+      <!-- item start -->
+        <div>
+          <div class="relative before:w-full before:absolute before:bottom-0 before:h-20 before:bg-gradient-to-tr before:from-primaryHover before:to-primary before:z-0 bg-white">
+            <img src="images/attorney-placeholder.png" class="w-[216px] h-[249px]  z-1 relative m-auto" alt="">
+            <div class=""></div>
+           
+          </div>
+          <div class="py-4">
+            <h1 class="text-2xl font-bold">Tyler Kobylski</h1>
+          <p class="font-bold text-md">ATTORNEY</p>
+          </div>
+          <p>
+            <a href="#" class="btn-primary-small text-md font-bold uppercase">read bio</a>
+          </p>
+          
+       </div>
+       <!-- item end -->
+      <!-- item start -->
+        <div>
+          <div class="relative before:w-full before:absolute before:bottom-0 before:h-20 before:bg-gradient-to-tr before:from-primaryHover before:to-primary before:z-0 bg-white">
+            <img src="images/attorney-placeholder.png" class="w-[216px] h-[249px]  z-1 relative m-auto" alt="">
+            <div class=""></div>
+           
+          </div>
+          <div class="py-4">
+            <h1 class="text-2xl font-bold">Tyler Kobylski</h1>
+          <p class="font-bold text-md">ATTORNEY</p>
+          </div>
+          <p>
+            <a href="#" class="btn-primary-small text-md font-bold uppercase">read bio</a>
+          </p>
+          
+       </div>
+       <!-- item end -->
+      <!-- item start -->
+        <div>
+          <div class="relative before:w-full before:absolute before:bottom-0 before:h-20 before:bg-gradient-to-tr before:from-primaryHover before:to-primary before:z-0 bg-white">
+            <img src="images/attorney-placeholder.png" class="w-[216px] h-[249px]  z-1 relative m-auto" alt="">
+            <div class=""></div>
+           
+          </div>
+          <div class="py-4">
+            <h1 class="text-2xl font-bold">Tyler Kobylski</h1>
+          <p class="font-bold text-md">ATTORNEY</p>
+          </div>
+          <p>
+            <a href="#" class="btn-primary-small text-md font-bold uppercase">read bio</a>
+          </p>
+          
+       </div>
+       <!-- item end -->
+      </div>
+      </div>
+      </section>
+   <!-- Attorneys end -->
+   <!-- section start  -->
+   <section class="">
+    <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+      <div class="grid grid-cols-1 md:grid-cols-6 ">
+      <!-- grid item start -->
+        <div class="col-span-2">
+          
+          <h1 class="font-semibold text-42">Awards, ratings & accolades.
+            
+          </h1>
+          <p class="font-normal text-[22px] mt-5 leading-9">
+            The acknowledgements our Chicago personal injury lawyers have earned are for the work we’ve done for over 3,500 clients. The BBB & top legal organizations throughout Illinois love us. Our clients love us. And we love you right back.
+
+ 
+          </p>
+        </div>
+        <!-- grid item end -->
+         <!-- grid item start -->
+         <div class="col-span-4 mt-10 md:mt-1">
+         
+<div class="mb-4 ">
+  <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist" >
+      <li class="mr-2" role="presentation" >
+          <button class="inline-block p-4  !uppercase !font-bold btn-primary text-black" id="awards-tab" data-tabs-target="#awards" type="button" role="tab" aria-controls="awards" aria-selected="false" >Awards</button>
+      </li>
+      <li class="mr-2" role="presentation">
+          <button class="inline-block p-4 font-bold uppercase text-black " id="membership-tab" data-tabs-target="#membership" type="button" role="tab" aria-controls="membership" aria-selected="false">MEMBERSHIPS</button>
+      </li>
+     
+  </ul>
+</div>
+<div id="myTabContent">
+  <div class="hidden p-4" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+       <div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+       <!-- item start -->
+        <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/awards/10-best-client-satisfaction.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+       <!-- item start -->
+        <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/awards/bbb-a-plus.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+         <!-- item start -->
+         <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/awards/martindale-hubbell.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+         <!-- item start -->
+         <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/awards/mmdaf.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+         <!-- item start -->
+         <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/awards/nadc-top-1-percent.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+         <!-- item start -->
+         <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/awards/naopia.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+         <!-- item start -->
+         <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/awards/practice-magazine-top-10.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+       </div> 
+  </div>
+  <div class="hidden p-4 " id="membership" role="tabpanel" aria-labelledby="membership-tab">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+      <!-- item start -->
+       <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+         <img src="images/members/logo-chicago-bar.png" class="w-full" alt="">
+       </div>
+       <!-- item end -->
+        <!-- item start -->
+        <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+          <img src="images/members/logo-illinois-bar.png" class="w-full" alt="">
+        </div>
+        <!-- item end -->
+         <!-- item start -->
+       <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+        <img src="images/members/logo-bia.png" class="w-full" alt="">
+      </div>
+      <!-- item end -->
+       <!-- item start -->
+       <div class="bg-white flex flex-col justify-center items-center py-8 px-5 border border-gray-200 border-solid">
+        <img src="images/members/logo-aba.png" class="w-full" alt="">
+      </div>
+      <!-- item end -->
+   
+  
+      </div>   
+  </div>
+  
+ 
+</div>
+
+         </div>
+          <!-- grid item end -->
+      </div>
+      </div>
+      </section>
+   <!-- section end -->
+   <!-- section start -->
+   <section class="">
+    <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+      <div class="flex flex-col md:flex-row justify-between">
+          <div class="w-full md:w-2/3">
+            <div class="bg-[#012346]  pt-5 md:pt-[75px] pr-5 md:pr-[75px] pb-5 md:pb-[45px] pl-5 md:pl-[170px] rounded-r-none md:rounded-r-[50px] rounded-tl-none  md:rounded-tl-[50px] text-white">
+              <div class="flex flex-col md:flex-row gap-4 ">
+                <div><i class="fa-solid fa-quote-left text-5xl"></i></div>
+                <div class="font-norml text-[22px] leading-10">
+                  <p class="">
+                    Every time I’ve called, I’ve been asked how I’m feeling and how my medical treatment is going first. I’ve had every question answered as thoroughly and completely as possible, never been put on hold for more than about a minute, and all calls and emails are returned within less than a day. . . . I’d recommend them 100%.”
+
+
+                  </p>
+                  <p class="pt-4">STEPHANIE N. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-10 md:mt-0 w-full md:w-1/3">
+            <div class="relative bg-[url(../images/hp-clients-helped.webp)] bg-no-repeat bg-cover h-96">
+              <div class="counter-div">
+               <p class="line"></p>
+               <h1 class="text-4xl font-bold pt-3">4.5</h1>
+              <p class="text-center text-primary">★★★★★</p> 
+               <p class="text-sm font-bold pb-3">AVG. GOOGLE RATING</p>
+               <p class="line"></p>
+              </div>
+     
+             </div>
+          </div>
+      </div>
+      </div>
+      </section>
+      <!-- section end -->
+      <section class="">
+        <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+          <div class="flex flex-col md:flex-row  justify-between relative">
+            <div class="w-full md:w-1/2 items-center relative top-0 md:top-[200px]">
+              <h1 class="text-lg text-primary pb-3">PERSONAL INJURY</h1>
+              <h1 class="font-semibold text-42">What is Personal Injury?
+
+              </h1>
+              <p class="font-normal text-[22px] mt-5 leading-9">
+                If this is your first lap around the legal ‘neighborhood,’ you may not understand exactly what qualifies as a personal injury, or just how a personal injury lawsuit actually comes together. 
+              </p>
+            </div>
+            <div class="relative w-full md:w-1/2 mt-10 md:mt-0">
+              <div class="counter-div ">
+               <p class="line"></p>
+               <h1 class="text-4xl font-bold pt-3">Hurt?</h1>
+           
+               <p class="text-sm font-bold pb-3">CALL YOUR DOCTOR*</p>
+               <p class="line"></p>
+              </div>
+              
+
+                <img src="images/hp-personal-injury.png" class="w-full " alt="">
+              <p class="text-sm">*If you call us, one of the first things we’ll ask is, <b>‘Did you go to the Doctor?’</b>. A doctor signing off on an injury is one of the key pieces of information needed to start a personal injury case.</p>
+     
+             </div>
+          </div>
+          </div>
+          </section>
+   <!-- section end -->
+
+     <!-- section start -->
+     <section class="">
+      <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+        <div class="grid gird-cols-1 md:grid-cols-2 gap-10">
+            <div class="">
+              <div class="bg-white px-4 md:px-10 py-10 md:py-20 rounded-r-[50px] rounded-tl-[50px] ">
+                <div class="flex flex-col md:flex-row gap-4 ">
+                  <div><i class="fa-solid fa-quote-left text-5xl"></i></div>
+                  <div class="font-norml text-xl leading-10">
+                   <h1 class="text-primary text-xl font-bold">PERSONAL INJURY DEFINED:</h1> 
+                    <p class="font-normal pt-3">
+                      Personal injury is the legal term used to describe physical harm to your body caused by the careless actions or negligence of another. But it’s often more than just physical or emotional harm. Personal injury suits can include demands for medical costs, lost wages, transportation, and other expenses. Occasionally, it can include damage to property, but that’s often a separate suit.
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-3 mt-0 md:mt-10">
+            
+             <h1 class="text-2xl font-bold">Personal Injury Laws in Chicago, Illinois</h1>
+             <h2 class="text-xl font-semibold">There are many, and they are complicated. But that’s why we’re here.</h2>
+             <p class="text-xl font-normal">Every state has its own personal injury laws. It would be impossible to cover every possibility, so Illinois uses a combination of statutes and case law for guidance. Most can be found in the Illinois Compiled Statutes and deal with vehicles, property, and civil procedure, which could also affect your personal injury case.</p>
+             <p>
+              <a href="#" class="btn-primary uppercase w-full md:!w-1/2">Personal Injury Law</a>
+             </p>
+            </div>
+        </div>
+        </div>
+        </section>
+        <!-- section end -->
+        <!-- section start -->
+        <section class="">
+          <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+            
+  <div class="my-10 md:my-24 container mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden " x-data="{ testimonialActive: 2 }" x-cloak>
+    <div class="relative w-full py-2 md:py-24 bg-primary md:w-1/2 flex flex-col item-center justify-center rounded-l-none md:rounded-l-3xl h-52 md:h-auto">
+
+      <div class="absolute top-0 left-0 z-10 grid-indigo w-16 h-16 md:w-40 md:h-40 md:ml-20 md:mt-24"></div>
+
+      <div class="relative text-2xl md:text-5xl py-2 px-6 md:py-6 md:px-6 text-center  md:mx-auto text-indigo-100 font-semibold leading-tight tracking-tight mb-0 z-20">
+        <!-- title start  -->
+        <div x-show.immediate="testimonialActive === 1">
+          <span class="md:block">Title 1</span>
+        <span class="md-block">Here</span>
+        </div>
+        <!-- title end -->
+        <!-- title start  -->
+        <div x-show.immediate="testimonialActive === 2">
+          <span class="md:block">Title 2</span>
+        <span class="md-block">Here</span>
+        </div>
+        <!-- title end -->
+        <!-- title start  -->
+        <div x-show.immediate="testimonialActive === 3">
+          <span class="md:block">Title 3</span>
+        <span class="md-block">Here</span>
+        </div>
+        <!-- title end -->
+        
+        
+        <!-- <span class="block">Are Saying!</span> -->
+      </div>
+
+      <div class="absolute right-0 bottom-0 mr-4 mb-4 md:block">
+        <button class="rounded-l-full border-r bg-gray-100 text-gray-500 focus:outline-none hover:text-indigo-500 font-bold w-12 h-10" x-on:click="testimonialActive = testimonialActive === 1 ? 3 : testimonialActive - 1">
+          &#8592;
+        </button><button class="rounded-r-full bg-gray-100 text-gray-500 focus:outline-none hover:text-indigo-500 font-bold w-12 h-10" x-on:click="testimonialActive = testimonialActive >= 3 ? 1 : testimonialActive + 1">
+          &#8594;
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-[#012346] text-white md:w-1/2 rounded-r-none md:rounded-r-3xl">
+      <div class="flex flex-col h-full relative ">
+
+       
+
+        <div class="h-full relative z-10">
+          <div x-show.immediate="testimonialActive === 1">
+            <div class=" serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 1">
+             <h1 class="text-2xl font-bold py-3">What is 1st law?</h1>
+             <div class="text-xl space-y-5">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt ipsam molestias officia voluptates. Aut doloribus quae ducimus exercitationem magni architecto soluta. Necessitatibus vitae quo fugiat quae nesciunt eum sint. </p>
+              
+             
+              </div>
+            </div>
+          </div>
+
+          <div x-show.immediate="testimonialActive === 2">
+            <div class=" serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 2">
+              <h1 class="text-2xl font-bold py-3">What is 2nd law?</h1>
+              <div class="text-xl space-y-5">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt ipsam molestias officia voluptates. Aut doloribus quae ducimus exercitationem magni architecto soluta. Necessitatibus vitae quo fugiat quae nesciunt eum sint. </p>
+             
+               </div>
+            </div>
+          </div>
+
+          <div x-show.immediate="testimonialActive === 3">
+            <div class=" serif font-normal italic px-6 py-6 md:px-16 md:py-10 text-xl md:text-2xl" x-show.transition="testimonialActive == 3">
+              <h1 class="text-2xl font-bold py-3">What is 3rd law?</h1>
+              <div class="text-xl space-y-5">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt ipsam molestias officia voluptates. Aut doloribus quae ducimus exercitationem magni architecto soluta. Necessitatibus vitae quo fugiat quae nesciunt eum sint. </p>
+              
+              
+               </div>
+            </div>
+          </div>
+        </div>
+
+    
+
+        <div class="flex justify-center px-6 pt-2 pb-6 md:py-6">
+          <div class="text-center" x-show="testimonialActive == 1">
+            <h2 class="text-sm md:text-base font-bold text-white leading-tight">John Doe</h2>
+            <small class="text-gray-500 text-xs md:text-sm truncate">CEO, ABC Inc.</small>
+          </div>
+
+          <div class="text-center" x-show="testimonialActive == 2">
+            <h2 class="text-sm md:text-base font-bold text-white leading-tight">Winter Doe</h2>
+            <small class="text-gray-500 text-xs md:text-sm truncate">CTO, XYZ Corp.</small>
+          </div>
+
+          <div class="text-center" x-show="testimonialActive == 3">
+            <h2 class="text-sm md:text-base font-bold text-white leading-tight">John Wick</h2>
+            <small class="text-gray-500 text-xs md:text-sm truncate">Product Manager, Fake Corp.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </section>
+        <!-- section end -->
+
+        <!-- section start -->
+          <!-- section start  -->
+   <section class="">
+    <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+      <div class="grid grid-cols-1 md:grid-cols-6 ">
+      <!-- grid item start -->
+        <div class="col-span-2">
+          <h1 class="text-lg text-primary pb-3">PERSONAL INJURY PROCESS
+          </h1>
+          <h1 class="font-semibold text-42">What Should I Expect in My Personal Injury Case? </h1>
+          <p class="font-normal text-[22px] mt-5 leading-9">
+            When you call Staver Accident Injury Lawyers, P.C., we will immediately set you on the path to recovering compensation for your injuries.
+
+  
+          </p>
+        </div>
+        <!-- grid item end -->
+         <!-- grid item start -->
+         <div class="col-span-4 bg-white relative">
+           <div class="flex flex-col md:flex-row gap-14  px-2 md:px-10 pt-10 pb-14">
+              <div class="w-full md:w-1/4 flex flex-row md:flex-col gap-3 md:gap-10">
+                <img src="images/client.webp" class="w-48 h-48 rounded-full" alt="">
+            
+                <div class=" bg-gradient-to-tr from-[#ff9462] to-primary w-14 h-14 rounded-full flex items-center justify-center text-center text-white">
+                  <i class="fa-solid fa-quote-left text-2xl"></i>
+                </div>
+
+              </div>
+              <div class="mt-4 w-full md:w-3/4">
+                <h1 class="text-xl md:text-3xl font-bold">Consult with a Chicago Injury Attorney</h1>
+                <p class="text-lg md:text-xl font-normal">
+                  Step one is to speak with a personal injury lawyer near you who listens first and acts second. We’ll evaluate the facts of your case and your understanding of events – your side of the story. While you concentrate on healing, our injury attorneys dive in to create a comprehensive roadmap for your case and realistic expectations for settlement.
+  
+  
+                </p>
+              </div>
+              
+           
+           </div>
+           <a href="#" class="btn-primary !rounded-none !h-16">REQUEST A FREE CONSULTATION -
+            (312) 626-8771</a>
+         </div>
+          <!-- grid item end -->
+      </div>
+      </div>
+      </section>
+        <!-- section end -->
+        <!-- section start -->
+               <!-- section start  -->
+   <section class="pt-10">
+    <div class="container px-5 md:px-10 m-auto py-10 text-main-text">
+      <h1 class="text-2xl font-bold py-10 text-center"> If We Take Your Case, the Process May Look Something Like This </h1>
+      <!-- grid start -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-[70px]">
+        <!-- item start -->
+        <div>
+          <div class="flex flex-col gap-3 border-b pb-3 border-gray-300 border-solid">
+            <div class=" bg-gradient-to-tr from-[#ff9462] to-primary w-12 h-12 rounded-full flex items-center justify-center text-center text-white">
+             1
+            </div>
+            <h1 class="text-2xl font-bold">Gather Evidence</h1>
+          </div>
+          <div class="pt-3">
+            <p class="text-lg font-normal">
+              Thorough investigation forms the foundation of every case. We’ll dig up police reports, medical records, and eyewitness accounts of your accident. Our injury lawyers apply maximum traction to our investigative processes, leaving no rock unrolled.
+
+
+            </p>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div>
+          <div class="flex flex-col gap-3 border-b pb-3 border-gray-300 border-solid">
+            <div class=" bg-gradient-to-tr from-[#ff9462] to-primary w-12 h-12 rounded-full flex items-center justify-center text-center text-white">
+             2
+            </div>
+            <h1 class="text-2xl font-bold">Gather Evidence</h1>
+          </div>
+          <div class="pt-3">
+            <p class="text-lg font-normal">
+              Thorough investigation forms the foundation of every case. We’ll dig up police reports, medical records, and eyewitness accounts of your accident. Our injury lawyers apply maximum traction to our investigative processes, leaving no rock unrolled.
+
+
+            </p>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div>
+          <div class="flex flex-col gap-3 border-b pb-3 border-gray-300 border-solid">
+            <div class=" bg-gradient-to-tr from-[#ff9462] to-primary w-12 h-12 rounded-full flex items-center justify-center text-center text-white">
+             3
+            </div>
+            <h1 class="text-2xl font-bold">Gather Evidence</h1>
+          </div>
+          <div class="pt-3">
+            <p class="text-lg font-normal">
+              Thorough investigation forms the foundation of every case. We’ll dig up police reports, medical records, and eyewitness accounts of your accident. Our injury lawyers apply maximum traction to our investigative processes, leaving no rock unrolled.
+
+
+            </p>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div>
+          <div class="flex flex-col gap-3 border-b pb-3 border-gray-300 border-solid">
+            <div class=" bg-gradient-to-tr from-[#ff9462] to-primary w-12 h-12 rounded-full flex items-center justify-center text-center text-white">
+             4
+            </div>
+            <h1 class="text-2xl font-bold">Gather Evidence</h1>
+          </div>
+          <div class="pt-3">
+            <p class="text-lg font-normal">
+              Thorough investigation forms the foundation of every case. We’ll dig up police reports, medical records, and eyewitness accounts of your accident. Our injury lawyers apply maximum traction to our investigative processes, leaving no rock unrolled.
+
+
+            </p>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div>
+          <div class="flex flex-col gap-3 border-b pb-3 border-gray-300 border-solid">
+            <div class=" bg-gradient-to-tr from-[#ff9462] to-primary w-12 h-12 rounded-full flex items-center justify-center text-center text-white">
+             5
+            </div>
+            <h1 class="text-2xl font-bold">Gather Evidence</h1>
+          </div>
+          <div class="pt-3">
+            <p class="text-lg font-normal">
+              Thorough investigation forms the foundation of every case. We’ll dig up police reports, medical records, and eyewitness accounts of your accident. Our injury lawyers apply maximum traction to our investigative processes, leaving no rock unrolled.
+
+
+            </p>
+          </div>
+        </div>
+        <!-- item end -->
+        <!-- item start -->
+        <div>
+          <div class="flex flex-col gap-3 border-b pb-3 border-gray-300 border-solid">
+            <div class=" bg-gradient-to-tr from-[#ff9462] to-primary w-12 h-12 rounded-full flex items-center justify-center text-center text-white">
+             6
+            </div>
+            <h1 class="text-2xl font-bold">Gather Evidence</h1>
+          </div>
+          <div class="pt-3">
+            <p class="text-lg font-normal">
+              Thorough investigation forms the foundation of every case. We’ll dig up police reports, medical records, and eyewitness accounts of your accident. Our injury lawyers apply maximum traction to our investigative processes, leaving no rock unrolled.
+
+
+            </p>
+          </div>
+        </div>
+        <!-- item end -->
+      </div>
+      <!-- grid end -->
+        <div class="w-full md:w-1/2 m-auto py-5 mt-10">
+          <a href="#" class="btn-primary ">
+            PERSONAL INJURY CLAIMS PROCESS</a>
+        </div>
+      </div>
+      </section>
+        <!-- section end -->
+     <!-- section start  -->
+     <section class="pt-10">
+      <div class="container px-5 md:px-10 m-auto py-16 text-main-text">
+        <div class="line !h-2 !w-40"></div>
+        <h1 class="pt-3 text-4xl md:text-5xl font-bold  text-center">Other Cases we Handle</h1>
+        <div class="pt-10">
+          <!-- item start -->
+          <div class="flex flex-col md:flex-row items-center gap-2 md:gap-6  py-3 md:py-14 px-1 md:px-14  hover:bg-[url(../images/stave-bg.webp)] ease-in hover:ease-out hover:duration-500 bg-no-repeat bg-cover hover:text-white">
+            <div class="w-full md:w-2/12  ">
+              <h1 class="text-3xl px-0 md:px-6 font-bold">
+                Premises Liability
+              </h1>
+            </div>
+            <div class="w-full md:w-10/12 pl-0 md:pl-20 pr-0 md:pr-4">
+              <div class="font-normal text-xl leading-9 space-y-3">
+                <p class="pb-10">
+                  The property you live, work, and play on should be safe. But every day, people are harmed in situations that could have easily been prevented. The owner of that property is responsible for making sure their premises reasonably protect those within. Our premises liability lawyers can help hold them (or their businesses) accountable when they fail to prevent avoidable injury.
+                </p>
+                <a href="#" class="btn-primary w-full md:!w-1/2 ">Premises Liability</a>
+              </div>
+              
+            </div>
+          </div>
+          <!-- item end -->
+          <!-- item start -->
+          <div class="flex flex-col md:flex-row items-center gap-2 md:gap-6  py-3 md:py-14 px-1 md:px-14  hover:bg-[url(../images/stave-bg.webp)] ease-in hover:ease-out hover:duration-500 bg-no-repeat bg-cover hover:text-white">
+            <div class="w-full md:w-2/12  ">
+              <h1 class="text-3xl px-0 md:px-6 font-bold">
+                Premises Liability
+              </h1>
+            </div>
+            <div class="w-full md:w-10/12 pl-0 md:pl-20 pr-0 md:pr-4">
+              <div class="font-normal text-xl leading-9 space-y-3">
+                <p class="pb-10">
+                  The property you live, work, and play on should be safe. But every day, people are harmed in situations that could have easily been prevented. The owner of that property is responsible for making sure their premises reasonably protect those within. Our premises liability lawyers can help hold them (or their businesses) accountable when they fail to prevent avoidable injury.
+                </p>
+                <a href="#" class="btn-primary w-full md:!w-1/2 ">Premises Liability</a>
+              </div>
+              
+            </div>
+          </div>
+          <!-- item end -->
+          <!-- item start -->
+          <div class="flex flex-col md:flex-row items-center gap-2 md:gap-6  py-3 md:py-14 px-1 md:px-14  hover:bg-[url(../images/stave-bg.webp)] ease-in hover:ease-out hover:duration-500 bg-no-repeat bg-cover hover:text-white">
+            <div class="w-full md:w-2/12  ">
+              <h1 class="text-3xl px-0 md:px-6 font-bold">
+                Premises Liability
+              </h1>
+            </div>
+            <div class="w-full md:w-10/12 pl-0 md:pl-20 pr-0 md:pr-4">
+              <div class="font-normal text-xl leading-9 space-y-3">
+                <p class="pb-10">
+                  The property you live, work, and play on should be safe. But every day, people are harmed in situations that could have easily been prevented. The owner of that property is responsible for making sure their premises reasonably protect those within. Our premises liability lawyers can help hold them (or their businesses) accountable when they fail to prevent avoidable injury.
+                </p>
+                <a href="#" class="btn-primary w-full md:!w-1/2 ">Premises Liability</a>
+              </div>
+              
+            </div>
+          </div>
+          <!-- item end -->
+          <!-- item start -->
+          <div class="flex flex-col md:flex-row items-center gap-2 md:gap-6  py-3 md:py-14 px-1 md:px-14  hover:bg-[url(../images/stave-bg.webp)] ease-in hover:ease-out hover:duration-500 bg-no-repeat bg-cover hover:text-white">
+            <div class="w-full md:w-2/12  ">
+              <h1 class="text-3xl px-0 md:px-6 font-bold">
+                Premises Liability
+              </h1>
+            </div>
+            <div class="w-full md:w-10/12 pl-0 md:pl-20 pr-0 md:pr-4">
+              <div class="font-normal text-xl leading-9 space-y-3">
+                <p class="pb-10">
+                  The property you live, work, and play on should be safe. But every day, people are harmed in situations that could have easily been prevented. The owner of that property is responsible for making sure their premises reasonably protect those within. Our premises liability lawyers can help hold them (or their businesses) accountable when they fail to prevent avoidable injury.
+                </p>
+                <a href="#" class="btn-primary w-full md:!w-1/2 ">Premises Liability</a>
+              </div>
+              
+            </div>
+          </div>
+          <!-- item end -->
+        
+      
+        </div>
+      </div>
+      </section>  
+      <!-- section end -->
+      <!-- section start -->
+       <!-- section start  -->
+     <section class="py-10 bg-gradient-to-t from-primaryHover to-primary">
+      <div class="container px-5 md:px-10 m-auto py-16 text-main-text">
+        <div class="flex flex-col md:flex-row gap-3 justify-center">
+          <div class="w-full md:w-1/2 text-white space-y-10 px-0 md:px-5">
+            <h1 class="text-6xl font-bold">Let's Get Started.</h1>
+            <p class="text-xl font-semibold leading-7">
+              We’re ready to fight for you. We’re ready to be your ally. And we’re ready to start right now. Don’t waste time, contact our law offices today.
+            </p>
+            <p>
+              <a href="#" class="btn-primary !bg-main-text !text-white">FREE CASE EVALUATION – (312) 736-0761 </a>
+            </p>
+            <p class="text-lg font-normal">
+              Serious injuries don’t happen on a 9-to-5 schedule, which is why we are always available to help if you have been hurt. Our team is available around the clock to provide the support you need.
+
+
+
+            </p>
+          </div>
+          <div class="w-full md:w-1/2 px-0 md:px-7">
+            <form class="bg-white rounded-3xl py-9 px-8">
+              <div class="mb-1 sm:mb-2">
+                <label for="firstName" class="inline-block mb-1 font-medium">First name</label>
+                <input
+                  placeholder="John"
+                  required=""
+                  type="text"
+                  class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                  id="firstName"
+                  name="firstName"
+                />
+              </div>
+              <div class="mb-1 sm:mb-2">
+                <label for="lastName" class="inline-block mb-1 font-medium">Last name</label>
+                <input
+                  placeholder="Doe"
+                  required=""
+                  type="text"
+                  class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                  id="lastName"
+                  name="lastName"
+                />
+              </div>
+              <div class="mb-1 sm:mb-2">
+                <label for="email" class="inline-block mb-1 font-medium">E-mail</label>
+                <input
+                  placeholder="john.doe@example.org"
+                  required=""
+                  type="text"
+                  class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="mt-4 mb-2 sm:mb-4">
+                <button
+                  type="submit"
+                  class="btn-primary"
+                >
+                  Subscribe
+                </button>
+              </div>
+             
+            </form>
+          </div>
+        </div>
+        </div>
+        </section>
+      <!-- section end -->
+      <!-- footer start -->
+      <!-- Footer container -->
+<footer
+class="bg-white text-center text-neutral-600 lg:text-left mt-2 md:mt-10">
+<div
+  class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
+  <div class="mr-12 hidden lg:block">
+    <span>Get connected with us on social networks:</span>
+  </div>
+  <!-- Social network icons container -->
+  <div class="flex justify-center">
+    <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+      </svg>
+    </a>
+    <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+      </svg>
+    </a>
+    <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+          fill-rule="evenodd"
+          clip-rule="evenodd" />
+      </svg>
+    </a>
+    <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+      </svg>
+    </a>
+    <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+      </svg>
+    </a>
+    <a href="#!" class="text-neutral-600 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+      </svg>
+    </a>
+  </div>
+</div>
+
+<!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
+<div class="mx-6 py-10 text-center md:text-left">
+  <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+    <!-- Tailwind Elements section -->
+    <div class="">
+      <h6
+        class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="mr-3 h-4 w-4">
+          <path
+            d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
+        </svg>
+          US Refund Consulting LLC
+      </h6>
+      <p>
+        Here you can use rows and columns to organize your footer
+        content. Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit.
+      </p>
+    </div>
+    <!-- Products section -->
+    <div class="">
+      <h6
+        class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+        Products
+      </h6>
+      <p class="mb-4">
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >Angular</a
+        >
+      </p>
+      <p class="mb-4">
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >React</a
+        >
+      </p>
+      <p class="mb-4">
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >Vue</a
+        >
+      </p>
+      <p>
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >Laravel</a
+        >
+      </p>
+    </div>
+    <!-- Useful links section -->
+    <div class="">
+      <h6
+        class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+        Useful links
+      </h6>
+      <p class="mb-4">
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >Pricing</a
+        >
+      </p>
+      <p class="mb-4">
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >Settings</a
+        >
+      </p>
+      <p class="mb-4">
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >Orders</a
+        >
+      </p>
+      <p>
+        <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+          >Help</a
+        >
+      </p>
+    </div>
+    <!-- Contact section -->
+    <div>
+      <h6
+        class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+        Contact
+      </h6>
+      <p class="mb-4 flex items-center justify-center md:justify-start">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="mr-3 h-5 w-5">
+          <path
+            d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+          <path
+            d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+        </svg>
+        New York, NY 10012, US
+      </p>
+      <p class="mb-4 flex items-center justify-center md:justify-start">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="mr-3 h-5 w-5">
+          <path
+            d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+          <path
+            d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+        </svg>
+        info@example.com
+      </p>
+      <p class="mb-4 flex items-center justify-center md:justify-start">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="mr-3 h-5 w-5">
+          <path
+            fill-rule="evenodd"
+            d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+            clip-rule="evenodd" />
+        </svg>
+        + 01 234 567 88
+      </p>
+      <p class="flex items-center justify-center md:justify-start">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="mr-3 h-5 w-5">
+          <path
+            fill-rule="evenodd"
+            d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
+            clip-rule="evenodd" />
+        </svg>
+        + 01 234 567 89
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--Copyright section-->
+<div class="bg-white p-6 text-center ">
+  <span>© 2023 Copyright:</span>
+  <a
+    class="font-semibold text-neutral-600 dark:text-neutral-400"
+    href="#"
+    >Us Refund Consulting LLC</a
+  >
+</div>
+</footer>
+      <!-- footer end-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+   <script>
+    // JavaScript to add the 'active' class when a tab is clicked
+    const tabButtons = document.querySelectorAll('[data-tabs-target]');
+
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Remove 'active' class from all tab buttons
+            tabButtons.forEach(btn => {
+                btn.classList.remove('border-b-2','rounded-t-lg','btn-primary', 'hover:text-blue-600');
+                btn.setAttribute('aria-selected', 'false');
+            });
+
+            // Add 'active' class to the clicked tab button
+            button.classList.add('btn-primary','uppercase','!font-bold','!hover:text-white');
+            button.setAttribute('aria-selected', 'true');
+        });
+    });
+</script>
+</body>
+</html>
